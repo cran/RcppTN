@@ -1,8 +1,8 @@
 Package: RcppTN
 Type: Package
 Title: Rcpp-Based Truncated Normal Distribution RNG and Family
-Version: 0.2-1
-Date: 2017-07-02
+Version: 0.2-2
+Date: 2017-11-21
 Authors@R: c(person("Jonathan", "Olmsted",
                               role = c("aut", "cre"),
                               email = "jpolmsted@gmail.com"))
@@ -17,13 +17,11 @@ URL: http://github.com/olmjo/RcppTN
 BugReports: http://github.com/olmjo/RcppTN/issues
 License: GPL (>= 2)
 Depends:
-Suggests: knitr (>= 1.1), ggplot2, msm, truncnorm, testthat,
-        microbenchmark
+Suggests: testthat
 LinkingTo: Rcpp
 Imports: Rcpp
-VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 NeedsCompilation: yes
-Packaged: 2017-07-03 16:58:24 UTC; olmjo
+Packaged: 2017-11-21 10:36:54 UTC; olmjo
 Repository: CRAN
-Date/Publication: 2017-07-09 06:18:15 UTC
+Date/Publication: 2017-11-21 11:42:30 UTC
